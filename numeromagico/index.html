@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+</html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numero Magico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="body">
+    <div class="card">
+            <div class="header">
+                <h2>Número magico</h2>
+                <h4>¿PODRAS ADIVINAR EL NUMERO?</h4>
+            </div>
+            <div class="body-card">
+                <p>Tienes 10 intentos para adivinar el numero entre 1 y 500. !!SUERTE!!</p>
+                <div>
+                    <label for="NumUsuario">Ingrese un número:</label>
+                    <input type="number" id='NumUsuario' class="input-numb">
+                </div>
+                <div class="buttons">
+                    <input type="button" class="button" onclick='Numero_Magico(); setInterval(Tiempo,100);Intentos_Realizados()'value='ACEPTAR'>
+                    <input type="button" class="button" onclick=" location.href =location.href" value='REINICIAR'>
+                </div>
+                <div id='intentosRealizados'></div>
+                <p id='mensaje'></p>
+                <div id='reloj'></div>
+            </div>
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
