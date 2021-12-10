@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+				<meta charset="UTF-8">
+			<title>Formato De Hoja De Vida Unica</title>
+			<link rel="stylesheet" href="Css/estilos.css">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			</script>
+		</head>
+		<br>
+		<br>
+		<body>
+			<form name="formulario">
+				<div class="Externo">
+					<div class="Hoja">
+						<div class="encabezado" align="width" >
+							<div align"center" class="Escudo">
+								<img src="imagenes/Logo.png"  width="80" height="120">
+							</div>
+							<div class="Formato" align="center">
+								<font face="Arial">
+									<p>FORMATO ÚNICO</p>
+									<h1><strong>HOJA DE VIDA</strong></h1>
+									<p> Persona Natural</p>
+									<h6>(Leyes 190 de 1995, 489 y 443 de 1998)</h6>
+								</font>
+							</div>
+							<div class="entidad">
+							<input type="text" name="EntidadRe" class="TextEntidad"></input>
+							<h5>ENTIDAD RECEPTORA</h5>
+							<br>
+							<div class="casilla" style="margin-top:10px" align="Center">
+							</div>
+							</div>
+						</div>
+						<br>
+						<br>
+							<div class="n1" style="margin-left:-580px" align="center">
+							<p>1</p>
+							</div>
+						<div class="Conexion"></div>
+						<div class="n2" style="margin:5px" align="center">
+							<p>DATOS PERSONALES</p>
+						</div>
+						<br>
+						<br>
+						<div class="DatPersonales">
+							<div class="PApellido">
+								<p class="PAP">PRIMER APELLIDO</p>
+								<input type="text" name="PriApe" class="TextPriA " onkeypress='return event.charCode >= 97 && event.charCode<= 122 || event.charCode >= 65 && event.charCode <= 90'/required></input>
+							</div>
+				<div class="SApellido">
+					<p class="SAP">SEGUNDO APELLIDO (O DE CASADA)</p>
+					<input type="text" name="SegApe" class="TextSegA "onkeypress='return event.charCode >= 97 && event.charCode<= 122 || event.charCode >= 65 && event.charCode <= 90'/required></input>
+				</div>
+				<div class="Nombres">
+					<p class="NOM">NOMBRES</p>
+					<input type="text" name="Nom" class="TexNom" onkeypress='return event.charCode >= 97 && event.charCode<= 122 || event.charCode >= 65 && event.charCode <= 90 || event.charCode==32'/event.charCode==32required></input>
+				</div>
+				<div class="DocIde">
+					<p class="DocDeIde">DOCUMENTO DE IDENTIFICACIÓN</p>
+					<p class="CC">CC.</p>
+					<input type="radio" name="DocId" value="CC" /> C.E
+					<input type="radio" name="DocId" value="C.E" /> PAS
+					<input type="radio" name="DocId" value="PAS" />
+						<div class="NoIde">
+							No.__________________
+						</div>
+						<input type="text" maxlength="10" name="TexCC" class="TextCC" onkeypress='return event.charCode >= 48 && event.charCode<= 57'/required></input>
+				</div>
+				<div class="Sexo">
+					<p class="Sex">SEXO</p>
+					<div class="F">
+						F <input type="radio" name="SEXO" value="F" />
+					</div>
+					<div class="M">
+						  M <input type="radio" name="SEXO" value="M" />
+					</div>
+				</div>
+				<div class="Nacionalidad">
+					<p class="NAC">NACIONALIDAD</p>
+					<p class="PAI">PAIS</p>
+					<div class="MiniNac">
+						COL <input type="radio" name="NACPAI" value="COL" />
+					EXTRANJERO <input type="radio" name="NACPAI" value="EXT" />
+					________________.
+					<input type="text"class="TextPais" onkeypress='return event.charCode >= 97 && event.charCode<= 122 || event.charCode >= 65 && event.charCode <= 90'/required>
+					</div>
+				</div>
+				<div class="Libreta">
+					<p class="libre">LIBRETA MILITAR</p>
+					<div class="PrimClase">
+						PRIMERA CLASE <input type="radio" name="LibM" value="PrimClas" />
+					</div>
+					<div class="SegClase">
+						SEGUNDA CLASE <input type="radio" name="LibM" value="SegClas" />
+					</div>
+					<div>
+						<input type="text" maxlength="10" class="Num" onkeypress='return event.charCode >= 48 && event.charCode<= 57'/required></input>
+					</div>
+					<div class="NumLin">
+						NUMERO ______________________
+					</div>
+					<div>
+						<input type="text" class="TxtDM"></input>
+					</div>
+					<div class="DM">
+						D.M ____________
+					</div>
+				</div>
+				<div class="FyL">
+					<p class="FechaLugar">
+					FECHA Y LUGAR DE NACIMIENTO</p>
+					<div>
+						<input type="date" name="fecha" class="FechaText">
+					</div>
+					<p class="FechaPais">FECHA PAIS</p>
+					<br>
+					<div class="DEPTO">DEPTO</div>
+					<div>
+						<input type="text"class="TxtLine" onkeypress='return event.charCode >= 97 && event.charCode<= 122 || event.charCode >= 65 && event.charCode <= 90'/required>
+					</div>
+					<div class="Line">
+						___________________________.
+					</div>
+					<div class="MUNI">MUNICIPIO </div>
+					<div>
+						<input type="text"class="TxtLine2" onkeypress='return event.charCode >= 97 && event.charCode<= 122 || event.charCode >= 65 && event.charCode <= 90'/required>
+					</div>
+					<div class="Line2">
+						___________________________.
+					</div>
+					<div>
+						<input type="text"class="TxtLine3" onkeypress='return event.charCode >= 97 && event.charCode<= 122 || event.charCode >= 65 && event.charCode <= 90'/required>
+					</div>
+					<div class="Line3">
+						___________________________.
+					</div>
+					</div>
+				<div class="Direc">
+					<p class="dirC">DIRECCIÓN DE CORRESPONDECIA</p>
+					<div >
+						<input type="text"class="TxtLinD1">
+					</div>
+					<div class="LineaD1">
+						__________________________________
+					</div>
+					<div >
+						<input type="text"class="TxtLinD2">
+					</div>
+					<div class="LineaD2">
+						PAIS ____________________  DEPTO______________
+					</div>
+					<div >
+						<input type="text"class="TxtLinD3">
+					</div>
+					<div class="LineaD3">
+						MUNICIPIO ____________________
+					</div>
+					<div>
+						<input type="text"class="TxtLinD4">
+					</div>
+					<div class="LineaD4">
+						TELÉFONO ______________
+					</div>
+					<input type="text"class="TxtLinD5" maxlength="10" onkeypress='return event.charCode >= 48 && event.charCode<= 57'/required>
+					<div class="LineaD5">
+						EMAIL _______________
+					</div>
+					<input type="email"class="email">
+				</div>
+				</div>
+				<br>
+				<br>
+					<div >
+					<div class="n1" style="margin-left:-530px" align="center">
+						<p>2</p>
+					</div>
+					<div class="Conexion2">
+					</div>
+					<div class="n3" style="margin:5px" align="center">
+						<p>FORMACIÓN ACADÉMICA</p>
+					</div>
+				</div>
+
+				<br>
+				<br>
+				<div class="FormaAcademica">
+					<div class="EdBasicaYMedia">
+						<p class="EduBasica" >
+							<strong>EDUCACIÓN BÁSICA Y MEDIA</strong> <br></p>
+							<p align="left" class="TextEdu">
+							MARQUE CON UNA X EL ÚLTIMO GRADO APROBADO (LOS GRADOS DE 1o. A 6o. DE BACHILLERATO EQUIVALEN A LOS GRADOS 6o. A 11o. DE EDUCACIÓN BÁSICA SECUNDARIA Y MEDIA).
+							</p>
+							<div class="EBasicaCua">
+								<p class="Ed">EDUCACION BASICA</p>
+							</div>
+							<div class="TiObtCu">
+								<div>
+									<input type="text"class="TxtTitu">
+								</div>
+								<p class="TitOb">TITULO OBTENIDO:</p>
+							</div>
+							<div class="Primaria">
+								<p class="Prim">PRIMARIA</p>
+							</div>
+							<div class="Secundaria">
+								<p class="Sec">SECUNDARIA</p>
+							</div>
+							<div class="Media">
+								<p class="Terc">MEDIA</p>
+							</div>
+							<div class="FechaGrado">
+								<p class="FEGRA">FECHA DE GRADO</p>
+							</div>
+							<div class="MesYAño">
+									<input type="month" class="mya">
+							</div>
+							<div class="c1">
+									<p class="c1p">1o</p>
+								</div>
+								<div class="c2">
+									<p class="c2p">2o</p>
+								</div>
+								<div class="c3">
+									<p class="c3p">3o</p>
+								</div>
+								<div class="c4">
+									<p class="c4p">4o</p>
+								</div>
+								<div class="c5">
+									<p class="c5p">5o</p>
+								</div>
+								<div class="c6">
+									<p class="c6p">6o</p>
+								</div>
+								<div class="c7">
+									<p class="c7p">7o</p>
+								</div>
+								<div class="c8">
+									<p class="c8p">8o</p>
+								</div>
+								<div class="c9">
+									<p class="c9p">9o</p>
+								</div>
+								<div class="c10">
+									<p class="c10p">10o</p>
+								</div>
+								<div class="c11">
+									<p class="c11p">11o</p>
+								</div>
+								</div>
+							<div class="EduSup">
+								<p class="EdSup_Pre_Pos"><strong>EDUCACION SUPERIOR (PREGRADO Y POSTGRADO)</strong>
+								</p>
+									<p class="Info_edu">DILIGENCIE ESTE PUNTO EN ESTRICTO ORDEN CRONOLÓGICO, EN MODALIDAD ACADÉMICA ESCRIBA:</p>
+									<div class="TC">
+										<strong>TC</strong>(TÉCNICA).
+									</div>
+									<div class="ES">
+										<strong>ES</strong>(ESPECIALIZACIÓN).
+									</div>
+									<div class="TL">
+										<strong>TL</strong>(TECNOLÓGICA).
+									</div>
+									<div class="MG">
+										<strong>MG</strong>(MAESTRÍA O MAGISTER).
+									</div>
+									<div class="TE">
+										<strong>TE</strong>(TECNOLÓGICA ESPECIALIZADA).
+									</div>
+									<div class="DOC">
+										<strong>DOC</strong>(DOCTORADO O PHD).
+									</div>
+									<div class="UN">
+										<strong>UN</strong>(UNIVERSITARIA).
+									</div>
+									<div class="Rela_Edu">
+										RELACIONE AL FRENTE EL NÚMERO DE LA TARJETA PROFESIONAL(SI ÉSTA HA SIDO PREVISTA EN UNA LEY).
+									</div>
+					</div>
+					<div class="ModoAca">
+						<p>MODALIDAD ACADEMICA</p>
+					</div>
+					<div class="No_Sem_Apr">
+						<p>No. SEMESTRES APROBADOS</p>
+					</div>
+					<div class="Graduado">
+						<p>GRADUADO</p>
+					</div>
+					<div class="SI">
+						<p>SI</p>
+					</div>
+					<div class="NO">
+						<p>NO</p>
+					</div>
+					<div class="NombreEstudio">
+						<p>NOMBRE DE LOS ESTUDIOS O TITULOS OBTENIDOS</p>
+					</div>
+					<div class="Terminacion">
+						<p>TERMINACIÓN</p>
+					</div>
+					<div class="Mes_Terminac">
+						<p>MES</p>
+					</div>
+					<div class="Año_Terminac">
+						<p>AÑO</p>
+					</div>
+					<div class="No_Tarjeta">
+						<p>No. TARJETA PROFESIONAL</p>
+					</div>
+					<div class="Celda00">
+						<input type="text" class="TxtCelda00"></input>
+					</div>
+					<div class="Celda01">
+						<input type="text" class="TxtCelda01"></input>
+					</div>
+					<div class="Celda02">
+						<input type="text" class="TxtCelda02"></input>
+					</div>
+					<div class="Celda03">
+						<input type="text" class="TxtCelda03"></input>
+					</div>
+					<div class="Celda04">
+						<input type="text" class="TxtCelda04"></input>
+					</div>
+					<div class="Celda10">
+						<input type="text" class="TxtCelda10"></input>
+					</div>
+					<div class="Celda11">
+						<input type="text" class="TxtCelda11"></input>
+					</div>
+					<div class="Celda12">
+						<input type="text" class="TxtCelda12"></input>
+					</div>
+					<div class="Celda13">
+						<input type="text" class="TxtCelda13"></input>
+					</div>
+					<div class="Celda14">
+						<input type="text" class="TxtCelda14"></input>
+					</div>
+					<div class="Celda20">
+						<input type="radio" name="SI1" value="SI1"  class="TxtCelda20"></input>
+					</div>
+					<div class="Celda21">
+						<input type="radio" name="SI2" value="SI2"  class="TxtCelda21"></input>
+					</div>
+					<div class="Celda22">
+						<input type="radio" name="SI3" value="SI3"  class="TxtCelda22"></input>
+					</div>
+					<div class="Celda23">
+						<input type="radio" name="SI4" value="SI4"  class="TxtCelda23"></input>
+					</div>
+					<div class="Celda24">
+						<input type="radio" name="SI5" value="SI5"  class="TxtCelda24"></input>
+					</div>
+					<div class="Celda30">
+					<input type="radio" name="SI1" value="NO1" class="TxtCelda30"></input>
+					</div>
+					<div class="Celda31">
+						<input type="radio" name="SI2" value="NO2"  class="TxtCelda31"></input>
+					</div>
+					<div class="Celda32">
+						<input type="radio" name="SI3" value="NO3"  class="TxtCelda32"></input>
+					</div>
+					<div class="Celda33">
+						<input type="radio" name="SI4" value="NO4"  class="TxtCelda33"></input>
+					</div>
+					<div class="Celda34">
+						<input type="radio" name="SI5" value="NO5"  class="TxtCelda34"></input>
+					</div>
+					<div class="Celda40">
+						<input type="text" class="TxtCelda40"></input>
+					</div>
+					<div class="Celda41">
+						<input type="text" class="TxtCelda41"></input>
+					</div>
+					<div class="Celda42">
+						<input type="text" class="TxtCelda42"></input>
+					</div>
+					<div class="Celda43">
+						<input type="text" class="TxtCelda43"></input>
+					</div>
+					<div class="Celda44">
+						<input type="text" class="TxtCelda44"></input>
+					</div>
+					<div class="Celda50">
+						<input type="number" class="TxtCelda50"></input>
+					</div>
+					<div class="Celda51">
+						<input type="number" class="TxtCelda51"></input>
+					</div>
+					<div class="Celda52">
+						<input type="number" class="TxtCelda52"></input>
+					</div>
+					<div class="Celda53">
+						<input type="number" class="TxtCelda53"></input>
+					</div>
+					<div class="Celda54">
+						<input type="number" class="TxtCelda54"></input>
+					</div>
+					<div class="Celda60">
+						<input type="number" class="TxtCelda60"></input>
+					</div>
+					<div class="Celda61">
+						<input type="number" class="TxtCelda61"></input>
+					</div>
+					<div class="Celda62">
+						<input type="number" class="TxtCelda62"></input>
+					</div>
+					<div class="Celda63">
+						<input type="number" class="TxtCelda63"></input>
+					</div>
+					<div class="Celda64">
+						<input type="number" class="TxtCelda64"></input>
+					</div>
+					<div class="Celda70">
+						<input type="number" class="TxtCelda70"></input>
+					</div>
+					<div class="Celda71">
+						<input type="number" class="TxtCelda71"></input>
+					</div>
+					<div class="Celda72">
+						<input type="number" class="TxtCelda72"></input>
+					</div>
+					<div class="Celda73">
+						<input type="number" class="TxtCelda73"></input>
+					</div>
+					<div class="Celda74">
+						<input type="number" class="TxtCelda74"></input>
+					</div>
+					<div class="Celda80">
+					<input type="number" class="TxtCelda80"></input>
+					</div>
+					<div class="Celda81">
+						<input type="number" class="TxtCelda81"></input>
+					</div>
+					<div class="Celda82">
+						<input type="number" class="TxtCelda82"></input>
+					</div>
+					<div class="Celda83">
+						<input type="number" class="TxtCelda83"></input>
+					</div>
+					<div class="Celda84">
+						<input type="number" class="TxtCelda84"></input>
+					</div>
+					<div class="Celda90">
+						<input type="number" class="TxtCelda90"></input>
+					</div>
+					<div class="Celda91">
+						<input type="number" class="TxtCelda91"></input>
+					</div>
+					<div class="Celda92">
+						<input type="number" class="TxtCelda92"></input>
+					</div>
+					<div class="Celda93">
+						<input type="number" class="TxtCelda93"></input>
+					</div>
+					<div class="Celda94">
+						<input type="number" class="TxtCelda94"></input>
+					</div>
+					<div class="Celda100">
+						<input type="number" class="TxtCelda100"></input>
+					</div>
+					<div class="Celda101">
+						<input type="number" class="TxtCelda101"></input>
+					</div>
+					<div class="Celda102">
+						<input type="number" class="TxtCelda102"></input>
+					</div>
+					<div class="Celda103">
+						<input type="number" class="TxtCelda103"></input>
+					</div>
+					<div class="Celda104">
+						<input type="number" class="TxtCelda104"></input>
+					</div>
+					<div class="Tab_Fin">
+						<p>ESPECÍFIQUE LOS IDIOMAS DIFERENTES AL ESPAÑOL QUE: HABLA, LEE, ESCRIBE DE FORMA, REGULAR (<strong>R</strong>), BIEN (<strong>B</strong>) O MUY BIEN (<strong>MB</strong>).</p>
+						<div class="Idioma">
+							<p>IDIOMA</p>
+						</div>
+						<div class="LoHabla">
+							<p>LO HABLA</p>
+						</div>
+						<div class="LoLee">
+							<p>LO LEE</p>
+						</div>
+						<div class="LoEscribe">
+							<p>LO ESCRIBE</p>
+						</div>
+						<div class="R1">
+							<p><strong>R</strong></p>
+						</div>
+						<div class="B1">
+							<p><strong>B</strong></p>
+						</div>
+						<div class="MB1">
+							<p><strong>MB</strong></p>
+						</div>
+						<div class="R2">
+							<p><strong>R</strong></p>
+						</div>
+						<div class="B2">
+							<p><strong>B</strong></p>
+						</div>
+						<div class="MB2">
+							<p><strong>MB</strong></p>
+						</div>
+						<div class="R3">
+							<p><strong>R</strong></p>
+						</div>
+						<div class="B3">
+							<p><strong>B</strong></p>
+						</div>
+						<div class="MB3">
+							<p><strong>MB</strong></p>
+						</div>
+						<div class="Celda_Tabla00">
+							<input type="text" class="TxtCelda_Tabla00"></input>
+						</div>
+						<div class="Celda_Tabla01">
+							<input type="text" class="TxtCelda_Tabla01"></input>
+						</div>
+						<div class="Celda_Tabla10">
+						</div>
+						<div class="Celda_Tabla11">
+						</div>
+						<div class="Celda_Tabla20">
+						</div>
+						<div class="Celda_Tabla21">
+						</div>
+						<div class="Celda_Tabla30">
+						</div>
+						<div class="Celda_Tabla31">
+						</div>
+						<div class="Celda_Tabla40">
+						</div>
+						<div class="Celda_Tabla41">
+						</div>
+						<div class="Celda_Tabla50">
+						</div>
+						<div class="Celda_Tabla51">
+						</div>
+						<div class="Celda_Tabla60">
+						</div>
+						<div class="Celda_Tabla61">
+						</div>
+						<div class="Celda_Tabla70">
+						</div>
+						<div class="Celda_Tabla71">
+						</div>
+						<div class="Celda_Tabla80">
+						</div>
+						<div class="Celda_Tabla81">
+						</div>
+						<div class="Celda_Tabla90">
+						</div>
+						<div class="Celda_Tabla91">
+						</div>
+					</div>
+				</div>
+				<input type="submit" value="Enviar" class="sub">
+				</form>
+	</body>
+</html>

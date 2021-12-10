@@ -1,0 +1,1974 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+
+div {
+  display: inline-block;
+  width: auto;
+  border-style: solid black;
+}
+
+.entidad .casilla{
+  width:250px; height:30px;
+  border: 1px solid black;
+}
+.entidad{
+  text-align:right;
+  margin-top: 30px;
+  margin-left: 140px;
+  width: 150px;
+  top:5px;
+  height: 20;
+  position: absolute;
+  padding-left:1px;
+  font-family:sans-serif;
+  font-size:12px;
+  font-style: italic;
+
+}
+.encabezado{
+  margin:auto;
+  margin-top:40px;
+  border-radius:20px;
+  width:800px;
+  height:145px;
+  border:1.3px solid black;
+  background:#ffff;
+  box-shadow:5px 5px black;
+}
+.libertad{
+  font-family:serif;
+}
+.Escudo{
+margin-left:-350px;
+position: absolute;
+margin-top: 15px;
+width:140px;
+}
+
+.n1{
+  margin-top:10px;
+  margin-right:auto;
+  border-radius:100%;
+  border-style:solid;
+  width:20px;
+  border:1.3px solid black;
+  display:inline-block;
+  background:#000;
+  color:#fff;
+}
+
+.Conexion{
+  position: absolute;
+  width: 8px;height: 2px;
+  border: 1px solid;
+  margin-left: -5px;
+  margin-top: 17px;
+  background: #00a1ff;
+}
+.Conexion2{
+  position: absolute;
+  width: 8px;height: 2px;
+  border: 1px solid;
+  margin-left: -5px;
+  margin-top: 17px;
+  background: #00a1ff;
+}
+
+.n2{
+  border-radius:20px;
+  width:180px;/
+  border-style:solid;
+  margin-right:100px;
+  border:1.3px solid black;
+  display:inline-block;
+  background: #000;
+  color:#fff;
+}
+
+.n3{
+  border-radius:20px;
+  width:230px;
+  border-style:solid;
+  margin-right:100px;
+  border:1.3px solid black;
+  display:inline-block;
+  background: #000;
+  color:#fff;
+}
+
+.Formato{
+  position: absolute;
+  margin-left:-130px;
+  display:inline-block;
+  margin-top: 20px;
+  width: 228px;
+}
+.Hoja{
+  background: white;
+  text-align: center;
+  margin:auto;
+  margin-top: -10px;
+  width:900px;
+  height:1450px;
+  margin-left: 220px;
+  border:1.3px solid black;
+}
+.Externo{
+  margin-top: -40px;
+  width: 1350px;
+  height: 1480px;
+  background: #7d7a7a;
+}
+.PApellido{
+    padding-left:1px;
+    font-family:sans-serif;
+    font-size:14px;
+    font-style: italic;
+    border:1.3px solid ;
+    display:inline-block;
+    width:265px;
+    height:60px;
+    border:1.3px solid black;
+    background: #E4F5F3;
+    margin-left: -4px;
+    margin-top: -4px;
+}
+.SApellido{
+  background:#E4F5F3;
+  display: inline-block;
+  width:265px; height:61px;
+  border:1px solid;
+  margin-top: -1px;
+  margin-left: -5px;
+  padding-left:1px;
+  font-family:sans-serif;
+  font-size:14px;
+  font-style: italic;
+
+}
+.Nombres{
+  background:#E4F5F3;
+  display: inline-block;
+  width:265px; height:61px;
+  border:1px solid;
+  margin-top: -1px;
+  margin-left: -5px;
+  padding-left:1px;
+  font-family:sans-serif;
+  font-size:14px;
+  font-style: italic;
+}
+.DocIde{
+  background:#E4F5F3;
+  display: inline-block;
+  width:350px; height:60px;
+  border:1px solid;
+  margin-top:-4px;
+  margin-left: -2px;
+}
+.Sexo{
+  background:#E4F5F3;
+  display: inline-block;
+  width:120px; height:60px;
+  border:1px solid;
+  margin-top: -4px;
+  margin-left: -5px;
+}
+.Nacionalidad{
+    background:#E4F5F3;
+  display: inline-block;
+  width:327px; height:60px;
+  border:1px solid;
+  margin-top: -4px;
+  margin-left: -5px;
+}
+.CC{
+    display: inline-block;
+}
+.Libreta{
+  width:798px; height:60px;
+  border:1px solid;
+  margin-top: -4px;
+  margin-left: 0px;
+  background: #ffff;
+  display: inline-block;
+  background:#E4F5F3  ;
+}
+
+.DatPersonales{
+  background:#E4F5F3;
+  width:797px; height:354px;
+  border:1.3px solid black;
+  background:#ffff;
+  box-shadow:5px 5px black;
+}
+.FyL{
+  background:#E4F5F3;
+  width:393px; height:173px;
+  border:1px solid;
+  margin-top: -4px;
+  margin-left: -1px;
+  display: inline-block;
+}
+
+.Direc{
+  background:#E4F5F3;
+  width:404px; height:173px;
+  border:1px solid;
+  margin-top: -3.5px;
+  margin-left: -5px;
+}
+
+.DatPersonales .PApellido{
+  position: absolute;
+  top:254px;
+  left:274px;
+}
+
+.DatPersonales .SApellido{
+  position: absolute;
+  top:251px;
+  left:542px;
+}
+
+.DatPersonales .Nombres{
+  position: absolute;
+  top:251px;
+  left:807px;
+}
+.DatPersonales .DocIde{
+  position: absolute;
+  top:316px;
+  left:272px;
+}
+.DatPersonales .Sexo{
+  position: absolute;
+  top:316px;
+  left:625px;
+}
+
+.DatPersonales .Nacionalidad{
+  position: absolute;
+  top:316px;
+  left:746px;
+}
+.DatPersonales .Libreta{
+  position: absolute;
+  top:377px;
+  left:270px;
+}
+.DatPersonales .FyL{
+  position: absolute;
+  top:438px;
+  left:271px;
+}
+.DatPersonales .Direc{
+  position: absolute;
+  top:437px;
+  left:669px;
+}
+.PAP{
+  width: 129px;
+  margin-top: 5px;
+  margin-left: 2px;
+}
+
+.NOM{
+  width: 70px;
+  margin-top: 5px;
+  margin-left: 4px;
+}
+.SAP{
+  width: 260px;
+  margin-top: 5px;
+  margin-left: 2px;
+}
+.DocDeIde{
+  padding-left:1px;
+  font-family:sans-serif;
+  font-size:13px;
+  font-style: italic;
+  width: 280px;
+  margin-top: 5px;
+  margin-left: -23px;
+
+}
+.CC{
+  width: 39px;
+  margin-top: 10px;
+  margin-left: -130px;
+}
+
+.NoIde{
+  width: 39px;
+  margin-top: 10px;
+  margin-left:0px;
+}
+
+.Sex{
+  width: 45px;
+  margin-top: 10px;
+  padding-left:10px;
+  font-family:sans-serif;
+  font-size:14px;
+  font-style: italic;
+}
+.F{
+  width: 39px;
+  margin-top: 10px;
+  margin-left:-20px;
+}
+.M{
+  width: 39px;
+  margin-top: 10px;
+  margin-left:-10px;
+
+}
+
+.NAC{
+  width: 140px;
+  margin-top: 6px;
+  padding-left:1px;
+  font-family:sans-serif;
+  font-size:14px;
+  font-style: italic;
+
+}
+
+.PAI{
+  width: 140px;
+  margin-top: -16px;
+  margin-left: 150px;
+  padding-left:1px;
+  font-family:sans-serif;
+  font-size:14px;
+  font-style: italic;
+}
+.MiniNac{
+  margin-top: 13px;
+  height: 20px;
+  width: 320px;
+}
+
+.TextPais{
+  background: #E4F5F3;
+  margin-top: -5px;
+  margin-left: -130px;
+  position: absolute;
+  width: 123px;
+  height: 20px;
+  border: 0px;
+}
+.libre{
+  width: 160px;
+  padding-left:1px;
+  font-family:sans-serif;
+  font-size:14px;
+  font-style: italic;
+  margin-left: -17px;
+  margin-top: 5px;
+}
+
+.PrimClase{
+  width: 160px;
+  margin-top: 15px;
+  margin-left:-40px;
+}
+
+
+.SegClase{
+  width: 160px;
+  margin-top: 1px;
+  margin-left:0px;
+}
+.Num{
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 110px;
+  height: 20px;
+  border: 0;
+  background: #E4F5F3;
+}
+.NumLin{
+  width: 250px;
+  margin-left: 30px;
+}
+.TxtDM{
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 40px;
+  background: #E4F5F3;
+  border: 0;
+  height: 20px;
+  width: 100px;
+}
+.DM{
+  width: 130px;
+  margin-left: 0px;
+}
+
+.FechaLugar{
+width: 270px;
+margin-top: 10px;
+margin-left: -10px;
+padding-left:1px;
+font-family:sans-serif;
+font-size:14px;
+font-style: italic;
+}
+
+.FechaPais{
+  position: absolute;
+  width: 270px;
+  margin-top: 1px;
+  margin-left: -80px;
+}
+.FechaText{
+  border: 1px solid;
+}
+
+.DEPTO{
+  width: 100px;
+  margin-left: -200px;
+  margin-top: 30px;
+  position:absolute;
+}
+.Line{
+width: 220px;
+margin-top:28px;
+margin-left: -80px;
+position: absolute;
+}
+.TxtLine{
+  background: #E4F5F3;
+  position:absolute;
+  margin-top: 9px;
+  margin-left: -80px;
+  width: 210px;
+  border: 0 solid;
+  height: 20px;
+}
+.MUNI{
+  position: absolute;
+  width: 100px;
+  margin-left: -184px;
+  margin-top: 60px;
+}
+.Line2{
+  position: absolute;
+  width: 220px;
+  margin-top: 60px;
+  margin-left: -80px;
+
+}
+.TxtLine2{
+  background: #E4F5F3;
+  position:absolute;
+  margin-top: 40px;
+  margin-left: -80px;
+  width: 210px;
+  border: 0;
+  height: 20px;
+}
+
+.Line3{
+  position: absolute;
+  width: 220px;
+  margin-top: 90px;
+  margin-left: -80px;
+
+}
+.TxtLine3{
+  background: #E4F5F3;
+  position:absolute;
+  margin-top: 70px;
+  margin-left: -80px;
+  border: 0;
+  width: 210px;
+  height: 20px;
+}
+
+.dirC{
+  width: 270px;
+  margin-top: 10px;
+  margin-left: -7px;
+  padding-left:1px;
+  font-family:sans-serif;
+  font-size:14px;
+  font-style: italic;
+}
+
+.TxtLinD1{
+  position: absolute;
+  margin-top: -6px;
+  margin-left: -175px;
+  width: 270px;
+  background: #E4F5F3;
+  border: 0;
+  height: 19px;
+}
+.LineaD1{
+  position: absolute;
+  width: 220px;
+  margin-top: 15px;
+  margin-left: -180px;
+
+}
+.TxtLinD2{
+  position: absolute;
+  margin-top: 32px;
+  margin-left: -145px;
+  width: 155px;
+  border: 0;
+  background: #E4F5F3;
+  height: 19px;
+}
+
+.LineaD2{
+  position: absolute;
+  width: 380px;
+  margin-top: 50px;
+  margin-left: -195px;
+}
+.TxtLinD3{
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 65px;
+  width: 110px;
+  border: 0;
+  background: #E4F5F3;
+  height: 20px;
+}
+
+.LineaD3{
+  position: absolute;
+  width: 380px;
+  margin-top: 85px;
+  margin-left: -255px;
+}
+.TxtLinD4{
+  position: absolute;
+  margin-top: 64px;
+  margin-left: -100px;
+  width: 154px;
+  border: 0;
+  background: #E4F5F3;
+  height: 19px;
+}
+
+.TxtTitu{
+  position: absolute;
+  margin-top: -10px;
+  margin-left: 00px;
+  width: 140px;
+  border: 0;
+  background: #E4F5F3;
+  height: 19px;
+}
+.LineaD4{
+  position: absolute;
+  width: 380px;
+  margin-top: 115px;
+  margin-left: -283px;
+}
+
+.LineaD5{
+  position: absolute;
+  width: 380px;
+  margin-top: 115px;
+  margin-left: -93px;
+}
+.TxtLinD5{
+  position: absolute;
+  margin-top: 110px;
+  margin-left: -105px;
+  width: 110px;
+  border: 0;
+  background: #E4F5F3;
+  height: 19px;
+
+}
+
+.email{
+  position: absolute;
+  margin-top: 110px;
+  margin-left: 63px;
+  width: 120px;
+  border: 0;
+  background: #E4F5F3;
+  height: 19px;
+
+}
+
+.FormaAcademica{
+background: #E4F5F3;
+width:797px; height:700px;
+border:1.3px solid black;
+box-shadow:5px 5px black;
+}
+
+.EduBasica{
+
+  margin-top: 10px;
+  margin-left: -570px;
+  padding-left:1px;
+  font-family:sans-serif;
+  font-size:14px;
+  font-style: italic;
+}
+.EdBasicaYMedia{
+background:#E4F5F3;
+width:797px; height:200px;
+border:1px solid black;
+
+}
+.TextEdu{
+margin-left: 10px;
+padding-left:1px;
+font-family:Arial;
+font-size:14px;
+}
+
+.EBasicaCua{
+  background: #C2EAFC;
+  width:300px; height:25px;
+  border: 1px solid black;
+  margin-top: -10px;
+  margin-left: -10px;
+  border-radius: 15px 0px 0px 0px;
+}
+
+.Ed{
+  margin-top:3px;
+  padding-left:1px;
+  font-family:sans-serif;
+  font-size:14px;
+  font-style: italic;
+}
+.TiObtCu {
+  position: absolute;
+  border-radius: 0px 15px 0px 0px;
+  width:300px; height:25px;
+  border: 1px solid black;
+  margin-top: -37px;
+  margin-left: 00px;
+}
+.EdBasicaYMedia .EBasicaCua{
+  position: absolute;
+  top:780px;
+  left:350px;
+}
+
+.EdBasicaYMedia .TiObtCu{
+  position: absolute;
+  top:807px;
+  left:641px;
+}
+.TitOb{
+  margin-left: -150px;
+  margin-top: -14px;
+  padding-left:1px;
+  font-family:sans-serif;
+  font-size:14px;
+  font-style: italic;
+}
+.Primaria{
+  background: #C2EAFC;
+  width:130px; height:25px;
+  border: 1px solid black;
+  margin-top: -37px;
+  margin-left: 00px;
+}
+.EdBasicaYMedia .Primaria{
+  position: absolute;
+  top:833px;
+  left:340px;
+}
+
+.Secundaria{
+  background: #C2EAFC;
+  width:110px; height:25px;
+  border: 1px solid black;
+  margin-top: -37px;
+  margin-left: 00px;
+}
+.EdBasicaYMedia .Secundaria{
+  position: absolute;
+  top:833px;
+  left:471px;
+}
+.Media{
+  background: #C2EAFC;
+  width:58px; height:25px;
+  border: 1px solid black;
+  margin-top: -37px;
+  margin-left: 00px;
+}
+.EdBasicaYMedia .Media{
+  position: absolute;
+  top:833px;
+  left:582px;
+}
+
+.Prim, .Sec, .Terc{
+  margin-top: 3px;
+  padding-left:1px;
+  font-family:sans-serif;
+  font-size:14px;
+  font-style: italic;
+}
+
+.FechaGrado{
+  background: #C2EAFC;
+  width:299px; height:25px;
+  border: 1px solid black;
+  margin-top: -37px;
+  margin-left: 00px;
+  padding-left:1px;
+  font-family:sans-serif;
+  font-size:14px;
+  font-style: italic;
+}
+
+.EdBasicaYMedia .FechaGrado{
+  position: absolute;
+  top:833px;
+  left:641px;
+}
+.FEGRA{
+  margin-left: -160px;
+  margin-top: 3px;
+}
+
+
+.MesYAño{
+  border-radius:0px 0px 15px 0px;
+  width:299px; height:30px;
+  border: 1px solid black;
+  margin-top: 79px;
+  margin-left: -31px;
+  padding-left:1px;
+  font-family:sans-serif;
+  font-size:14px;
+  font-style: italic;
+  position: absolute;
+    background: #E4F5F3;
+}
+.mya{
+  margin-top: 4px;
+    background: #E4F5F3;
+    border: 1px solid;
+}
+
+.c1{
+  position: absolute;
+  width: 25px; height: 30px;
+  border: 1px solid black;
+  margin-left: -332px;
+  margin-top: 79px;
+  border-radius:0px 0px 0px 15px;
+}
+.c2{
+  position: absolute;
+  width: 25px; height: 30px;
+  border: 1px solid black;
+  margin-left: -306px;
+  margin-top: 79px;
+}
+.c3{
+  position: absolute;
+  width: 25px; height: 30px;
+  border: 1px solid black;
+  margin-left: -280px;
+  margin-top: 79px;
+}
+.c4{
+  position: absolute;
+  width: 25px; height: 30px;
+  border: 1px solid black;
+  margin-left: -254px;
+  margin-top: 79px;
+}
+
+.c5{
+  position: absolute;
+  width: 26px; height: 30px;
+  border: 1px solid black;
+  margin-left: -228px;
+  margin-top: 79px;
+}
+
+.c6{
+  position: absolute;
+  width: 27px; height: 30px;
+  border: 1px solid black;
+  margin-left: -201px;
+  margin-top: 79px;
+}
+.c7{
+  position: absolute;
+  width: 26px; height: 30px;
+  border: 1px solid black;
+  margin-left: -173px;
+  margin-top: 79px;
+}
+.c8{
+  position: absolute;
+  width: 26px; height: 30px;
+  border: 1px solid black;
+  margin-left: -146px;
+  margin-top: 79px;
+}
+.c9{
+  position: absolute;
+  width: 28px; height: 30px;
+  border: 1px solid black;
+  margin-left: -119px;
+  margin-top: 79px;
+}
+.c10{
+  position: absolute;
+  width: 28px; height: 30px;
+  border: 1px solid black;
+  margin-left: -90px;
+  margin-top: 79px;
+}
+.c11{
+  position: absolute;
+  width: 29px; height: 30px;
+  border: 1px solid black;
+  margin-left: -61px;
+  margin-top: 79px;
+}
+
+.c1 , .c2 , .c3, .c4, .c5, .c6 , .c7 , .c8, .c9, .c10, .c11 {
+  font-family:Arial;
+  font-size:9px;
+}
+
+.c1p, .c2p, .c3p, .c4p, .c5p, .c6p , .c7p , .c8p, .c9p, .c10p, .c11p{
+  margin-top: 7px;
+}
+
+.EduSup{
+  margin-top: -1030px;
+  background: #E4F5F3;
+  width:797px; height:175px;
+  border:1.3px solid black;
+
+}
+
+.EdSup_Pre_Pos{
+  margin-left: -420px;
+  margin-top: 5px;
+  padding-left:1px;
+  font-family:sans-serif;
+  font-size:14px;
+  font-style: italic;
+}
+
+.Info_edu{
+  margin-left: -80px;
+  margin-top: 4px;
+  padding-left:1px;
+  font-family:Arial;
+  font-size:14px;
+}
+
+.TC{
+  padding-left:1px;
+  font-family:Arial;
+  font-size:14px;
+  position: absolute;
+  margin-left: -380px;
+  margin-top: 10px;
+}
+
+.ES{
+  padding-left:1px;
+  font-family:Arial;
+  font-size:14px;
+  position: absolute;
+  margin-left: -380px;
+  margin-top: 33px;
+}
+.TL{
+  padding-left:1px;
+  font-family:Arial;
+  font-size:14px;
+  position: absolute;
+  margin-left: -190px;
+  margin-top: 10px;
+}
+.MG{
+  padding-left:1px;
+  font-family:Arial;
+  font-size:14px;
+  position: absolute;
+  margin-left: -190px;
+  margin-top: 33px;
+}
+
+.TE{
+  padding-left:1px;
+  font-family:Arial;
+  font-size:14px;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.DOC{
+  padding-left:1px;
+  font-family:Arial;
+  font-size:14px;
+  position: absolute;
+  margin-left: -380px;
+  margin-top: 55px;
+}
+
+.UN{
+  padding-left:1px;
+  font-family:Arial;
+  font-size:14px;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 33px;
+}
+
+.Rela_Edu{
+  padding-left:1px;
+  font-family:Arial;
+  font-size:14px;
+  position: absolute;
+  margin-left: -390px;
+  margin-top: 80px;
+}
+
+.ModoAca{
+background: #C2EAFC;
+width: 110px; height: 45px;
+border: 1px solid black;
+position: absolute;
+margin-top: -1px;
+margin-left: -399px;
+padding-left:1px;
+font-family:sans-serif;
+font-size:14px;
+font-style: italic;
+}
+
+.No_Sem_Apr{
+background: #C2EAFC;
+width: 120px; height: 45px;
+border: 1px solid black;
+position: absolute;
+margin-top: -1px;
+margin-left: -288px;
+padding-left:1px;
+font-family:sans-serif;
+font-size:14px;
+font-style: italic;
+}
+
+.Graduado{
+  background: #C2EAFC;
+width: 100px; height: 21px;
+border: 1px solid black;
+position: absolute;
+margin-top: -1px;
+margin-left: -167px;
+padding-left:1px;
+font-family:sans-serif;
+font-size:14px;
+font-style: italic;
+}
+.SI{
+  background: #C2EAFC;
+  width: 50px; height: 23px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 21px;
+  margin-left: -167px;
+  padding-left:1px;
+  font-family:sans-serif;
+  font-size:14px;
+  font-style: italic;
+}
+
+.NO{
+  background: #C2EAFC;
+  width: 49px; height: 23px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 21px;
+  margin-left: -116px;
+  padding-left:1px;
+  font-family:sans-serif;
+  font-size:14px;
+  font-style: italic;
+}
+
+.NombreEstudio{
+  background: #C2EAFC;
+  width: 240px; height: 45px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top:-1px;
+  margin-left: -66px;
+  padding-left:1px;
+  font-family:sans-serif;
+  font-size:14px;
+  font-style: italic;
+}
+
+.Terminacion{
+  background: #C2EAFC;
+  width: 120px; height: 23px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top:-1px;
+  margin-left: 175px;
+  padding-left:1px;
+  font-family:sans-serif;
+  font-size:14px;
+  font-style: italic;
+}
+.Mes_Terminac{
+  background: #C2EAFC;
+  width: 40px; height: 21px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top:23px;
+  margin-left: 175px;
+  padding-left:1px;
+  font-family:sans-serif;
+  font-size:14px;
+  font-style: italic;
+}
+
+
+.Año_Terminac{
+  background: #C2EAFC;
+  width: 79px; height: 21px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top:23px;
+  margin-left: 216px;
+  padding-left:1px;
+  font-family:sans-serif;
+  font-size:14px;
+  font-style: italic;
+}
+.No_Tarjeta{
+  background: #C2EAFC;
+  width: 102px; height: 45px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top:-1px;
+  margin-left: 296px;
+  padding-left:1px;
+  font-family:sans-serif;
+  font-size:14px;
+  font-style: italic;
+
+}
+
+.Celda00{
+  width: 110px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 45px;
+  margin-left: -399px;
+}
+.TxtCelda00, .TxtCelda01, .TxtCelda02, .TxtCelda03, .TxtCelda04{
+  width: 108px;
+  height: 23px;
+  border: 0;
+  background: #E4F5F3;
+}
+
+.Celda01{
+  width: 110px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 71px;
+  margin-left: -399px;
+}
+.Celda02{
+  width: 110px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 97px;
+  margin-left: -399px;
+}
+.Celda03{
+  width: 110px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 123px;
+  margin-left: -399px;
+}
+.Celda04{
+  width: 110px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 149px;
+  margin-left: -399px;
+}
+.Celda10{
+  width: 120px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 45px;
+  margin-left: -288px;
+}
+.TxtCelda10, .TxtCelda11, .TxtCelda12, .TxtCelda13, .TxtCelda14{
+  width: 118px;
+  height: 23px;
+  border: 0;
+  background: #E4F5F3;
+}
+
+.Celda11{
+  width: 120px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 71px;
+  margin-left: -288px;
+}
+.Celda12{
+  width: 120px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 97px;
+  margin-left: -288px;
+}
+.Celda13{
+  width: 120px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 123px;
+  margin-left: -288px;
+}
+.Celda14{
+  width: 120px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 149px;
+  margin-left: -288px;
+}
+.Celda20{
+  width: 50px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 45px;
+  margin-left: -167px;
+}
+.TxtCelda20, .TxtCelda21,.TxtCelda22, .TxtCelda23,.TxtCelda24, .TxtCelda30,.TxtCelda31, .TxtCelda32, .TxtCelda33, .TxtCelda34{
+  width: 48px;
+  height: 23px;
+  background: #E4F5F3;
+
+}
+.Celda21{
+  width: 50px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 71px;
+  margin-left: -167px;
+}
+.Celda22{
+  width: 50px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 97px;
+  margin-left: -167px;
+}
+.Celda23{
+  width: 50px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 123px;
+  margin-left: -167px;
+}
+.Celda24{
+  width: 50px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 149px;
+  margin-left: -167px;
+}
+
+
+.Celda30{
+  width: 49px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 45px;
+  margin-left: -116px;
+}
+.Celda31{
+  width: 49px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 71px;
+  margin-left: -116px;
+}
+.Celda32{
+  width: 49px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 97px;
+  margin-left: -116px;
+}
+.Celda33{
+  width: 49px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 123px;
+  margin-left: -116px;
+}
+.Celda34{
+  width: 49px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 149px;
+  margin-left: -116px;
+}
+
+.Celda40{
+  width: 240px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top:45px;
+  margin-left: -66px;
+}
+
+
+.TxtCelda40, .TxtCelda41, .TxtCelda42, .TxtCelda43, .TxtCelda44{
+  width: 238px;
+  height: 23px;
+  border: 0;
+  background: #E4F5F3;
+}
+.Celda41{
+  width: 240px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top:71px;
+  margin-left: -66px;
+}
+.Celda42{
+  width: 240px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top:97px;
+  margin-left: -66px;
+}
+.Celda43{
+  width: 240px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top:123px;
+  margin-left: -66px;
+}
+.Celda44{
+  width: 240px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top:149px;
+  margin-left: -66px;
+}
+.Celda50{
+  width: 40px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top:45px;
+  margin-left: 175px;
+}
+.TxtCelda50, .TxtCelda51, .TxtCelda52, .TxtCelda53, .TxtCelda54{
+  width: 38px;
+  height: 23px;
+  border: 0;
+  background: #E4F5F3;
+}
+.Celda51{
+  width: 40px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top:71px;
+  margin-left: 175px;
+}
+.Celda52{
+  width: 40px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top:97px;
+  margin-left: 175px;
+}
+.Celda53{
+  width: 40px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top:123px;
+  margin-left: 175px;
+}
+.Celda54{
+  width: 40px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top:149px;
+  margin-left: 175px;
+}
+.Celda60{
+  width: 19px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top:45px;
+  margin-left: 216px;
+}
+.TxtCelda60, .TxtCelda61, .TxtCelda62, .TxtCelda63, .TxtCelda64{
+  width: 25px;
+  height: 23px;
+  border: 0;
+  background: #E4F5F3;
+}
+.Celda61{
+  width: 19px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top:71px;
+  margin-left: 216px;
+}
+.Celda62{
+  width: 19px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top:97px;
+  margin-left: 216px;
+}
+.Celda63{
+  width: 19px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top:123px;
+  margin-left: 216px;
+}
+.Celda64{
+  width: 19px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top:149px;
+  margin-left: 216px;
+}
+
+.Celda70{
+  width: 20px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top:45px;
+  margin-left: 236px;
+}
+.TxtCelda70, .TxtCelda71, .TxtCelda72, .TxtCelda73, .TxtCelda74{
+  width: 25px;
+  height: 23px;
+  border: 0;
+  background: #E4F5F3;
+}
+.Celda71{
+  width: 20px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top:71px;
+  margin-left: 236px;
+}
+.Celda72{
+  width: 20px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top:97px;
+  margin-left: 236px;
+}
+.Celda73{
+  width: 20px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top:123px;
+  margin-left: 236px;
+}
+.Celda74{
+  width: 20px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top:149px;
+  margin-left: 236px;
+}
+.Celda80{
+  width: 19px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top:45px;
+  margin-left: 257px;
+}
+.TxtCelda80, .TxtCelda81, .TxtCelda82, .TxtCelda83, .TxtCelda84{
+  width: 25px;
+  height: 23px;
+  border: 0;
+  background: #E4F5F3;
+}
+.Celda81{
+  width: 19px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top:71px;
+  margin-left: 257px;
+}
+.Celda82{
+  width: 19px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top:97px;
+  margin-left: 257px;
+}
+.Celda83{
+  width: 19px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top:123px;
+  margin-left: 257px;
+}
+.Celda84{
+  width: 19px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top:149px;
+  margin-left: 257px;
+}
+.Celda90{
+  width: 22px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top:45px;
+  margin-left: 277px;
+}
+.TxtCelda90, .TxtCelda91, .TxtCelda92, .TxtCelda93, .TxtCelda94{
+  width: 25px;
+  height: 23px;
+  border: 0;
+  background: #E4F5F3;
+}
+.Celda91{
+  width: 18px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top:71px;
+  margin-left: 277px;
+}
+
+.Celda92{
+  width: 18px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top:97px;
+  margin-left: 277px;
+}
+
+.Celda93{
+  width: 18px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top:123px;
+  margin-left: 277px;
+}
+
+.Celda94{
+  width: 18px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top:149px;
+  margin-left: 277px;
+}
+
+.Celda100{
+  width: 103px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top:45px;
+  margin-left: 296px;
+}
+.TxtCelda100, .TxtCelda101, .TxtCelda102, .TxtCelda103, .TxtCelda104{
+  width: 101px;
+  height: 23px;
+  border: 0;
+  background: #E4F5F3;
+}
+.Celda101{
+  width: 103px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top:71px;
+  margin-left: 296px;
+}
+.Celda102{
+  width: 103px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top:97px;
+  margin-left: 296px;
+}
+.Celda103{
+  width: 103px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top:123px;
+  margin-left: 296px;
+}
+.Celda104{
+  width: 103px; height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top:149px;
+  margin-left: 296px;
+}
+.Tab_Fin{
+width: 797px; height:170px;
+border: 1px solid black;
+margin-top: 175px;
+margin-left:-399px;
+position: absolute;
+padding-left:1px;
+font-family:Arial;
+font-size:11px;
+font-style: italic;
+}
+
+.Tab_Fin p{
+  margin-top: 5px;
+  margin-left: -60px;
+}
+
+.Idioma{
+  background: #C2EAFC;
+  width:150px; height:40px;
+  border: 1px solid black;
+  border-radius: 15px 0px 0px 0px;
+  margin-top: 20px;
+  margin-left:-159px;
+  position: absolute;
+  padding-left:1px;
+  font-family:sans-serif;
+  font-size:11px;
+  font-style: italic;
+}
+.Idioma p{
+  margin-top: 14px;
+  margin-left:10px;
+}
+.LoHabla{
+  background: #C2EAFC;
+  width:70px; height:20px;
+  border: 1px solid black;
+  margin-top: 20px;
+  margin-left:-7px;
+  position: absolute;
+  padding-left:1px;
+  font-family:sans-serif;
+  font-size:10px;
+  font-style: italic;
+}
+.LoLee{
+  background: #C2EAFC;
+  width:70px; height:20px;
+  border: 1px solid black;
+  margin-top: 20px;
+  margin-left:65px;
+  position: absolute;
+  padding-left:1px;
+  font-family:sans-serif;
+  font-size:10px;
+  font-style: italic;
+}
+
+.LoEscribe{
+  border-radius: 0px 15px 0px 0px;
+  background: #C2EAFC;
+  width:70px; height:20px;
+  border: 1px solid black;
+  margin-top: 20px;
+  margin-left:137px;
+  position: absolute;
+  padding-left:1px;
+  font-family:sans-serif;
+  font-size:10px;
+  font-style: italic;
+}
+
+.LoHabla p {
+  margin-top: 4px;
+  margin-left:8px;
+}
+
+.LoLee p{
+  margin-top: 4px;
+  margin-left:8px;
+}
+
+.LoEscribe p {
+  margin-top: 4px;
+  margin-left:2px;
+}
+
+.R1{
+  background: #C2EAFC;
+  width:23px; height:19px;
+  border: 1px solid black;
+  margin-top: 41px;
+  margin-left:-7px;
+  position: absolute;
+  padding-left:1px;
+  font-family:Arial;
+  font-size:10px;
+}
+.R1 p{
+  margin-top: 4px;
+  margin-left:0px;
+}
+.B1{
+  background: #C2EAFC;
+  width:23px; height:19px;
+  border: 1px solid black;
+  margin-top: 41px;
+  margin-left:18px;
+  position: absolute;
+  padding-left:1px;
+  font-family:Arial;
+  font-size:10px;
+}
+.B1 p{
+  margin-top: 4px;
+  margin-left:0px;
+}
+
+.MB1{
+  background: #C2EAFC;
+  width:20px; height:19px;
+  border: 1px solid black;
+  margin-top: 41px;
+  margin-left:43px;
+  position: absolute;
+  padding-left:1px;
+  font-family:Arial;
+  font-size:10px;
+}
+.MB1 p{
+  margin-top: 4px;
+  margin-left:0px;
+}
+
+.R2{
+  background: #C2EAFC;
+  width:23px; height:19px;
+  border: 1px solid black;
+  margin-top: 41px;
+  margin-left:65px;
+  position: absolute;
+  padding-left:1px;
+  font-family:Arial;
+  font-size:10px;
+}
+.R2 p{
+  margin-top: 4px;
+  margin-left:0px;
+}
+.B2{
+  background: #C2EAFC;
+  width:23px; height:19px;
+  border: 1px solid black;
+  margin-top: 41px;
+  margin-left:90px;
+  position: absolute;
+  padding-left:1px;
+  font-family:Arial;
+  font-size:10px;
+}
+.B2 p{
+  margin-top: 4px;
+  margin-left:0px;
+}
+
+.MB2{
+  background: #C2EAFC;
+  width:20px; height:19px;
+  border: 1px solid black;
+  margin-top: 41px;
+  margin-left:115px;
+  position: absolute;
+  padding-left:1px;
+  font-family:Arial;
+  font-size:10px;
+}
+.MB2 p{
+  margin-top: 4px;
+  margin-left:0px;
+}
+
+
+.R3{
+  background: #C2EAFC;
+  width:23px; height:19px;
+  border: 1px solid black;
+  margin-top: 41px;
+  margin-left:137px;
+  position: absolute;
+  padding-left:1px;
+  font-family:Arial;
+  font-size:10px;
+}
+.R3 p{
+  margin-top: 4px;
+  margin-left:0px;
+}
+.B3{
+  background: #C2EAFC;
+  width:23px; height:19px;
+  border: 1px solid black;
+  margin-top: 41px;
+  margin-left:162px;
+  position: absolute;
+  padding-left:1px;
+  font-family:Arial;
+  font-size:10px;
+}
+.B3 p{
+  margin-top: 4px;
+  margin-left:0px;
+}
+
+.MB3{
+  background: #C2EAFC;
+  width:20px; height:19px;
+  border: 1px solid black;
+  margin-top: 41px;
+  margin-left:187px;
+  position: absolute;
+  padding-left:1px;
+  font-family:Arial;
+  font-size:10px;
+}
+.MB3 p{
+  margin-top: 4px;
+  margin-left:0px;
+}
+.Celda_Tabla00{
+  width: 151px; height: 20px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 61px;
+  margin-left: -159px;
+}
+
+.TxtCelda_Tabla00, .TxtCelda_Tabla01{
+  width: 145px;
+  height: 19px;
+  margin-left: 7px;
+  border: 0;
+  background: #E4F5F3;
+}
+.Celda_Tabla01{
+  border-radius: 0px 0px 0px 15px;
+  width: 151px; height: 20px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 82px;
+  margin-left: -159px;
+}
+
+.Celda_Tabla10{
+  width: 24px; height: 20px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 61px;
+  margin-left: -7px;
+}
+
+.TxtCelda_Tabla10, .TxtCelda_Tabla11{
+  width: 23px;
+  height: 19px;
+  border: 0;
+  background: #E4F5F3;
+}
+.Celda_Tabla11{
+  width: 24px; height: 20px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 82px;
+  margin-left: -7px;
+}
+
+.Celda_Tabla20{
+  width: 24px; height: 20px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 61px;
+  margin-left: 18px;
+}
+.Celda_Tabla21{
+  width: 24px; height: 20px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 82px;
+  margin-left: 18px;
+}
+
+.Celda_Tabla30{
+  width: 21px; height: 20px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 61px;
+  margin-left: 43px;
+}
+.Celda_Tabla31{
+  width: 21px; height: 20px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 82px;
+  margin-left: 43px;
+}
+
+
+.Celda_Tabla40{
+  width: 24px; height: 20px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 61px;
+  margin-left: 65px;
+}
+.Celda_Tabla41{
+  width: 24px; height: 20px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 82px;
+  margin-left: 65px;
+}
+
+.Celda_Tabla50{
+  width: 24px; height: 20px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 61px;
+  margin-left: 90px;
+}
+.Celda_Tabla51{
+  width: 24px; height: 20px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 82px;
+  margin-left: 90px;
+}
+
+.Celda_Tabla60{
+  width: 21px; height: 20px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 61px;
+  margin-left: 115px;
+}
+.Celda_Tabla61{
+  width: 21px; height: 20px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 82px;
+  margin-left: 115px;
+}
+
+
+.Celda_Tabla70{
+  width: 24px; height: 20px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 61px;
+  margin-left: 137px;
+}
+.Celda_Tabla71{
+  width: 24px; height: 20px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 82px;
+  margin-left: 137px;
+}
+
+.Celda_Tabla80{
+  width: 24px; height: 20px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 61px;
+  margin-left: 162px;
+}
+.Celda_Tabla81{
+  width: 24px; height: 20px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 82px;
+  margin-left: 162px;
+}
+
+.Celda_Tabla90{
+  width: 21px; height: 20px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 61px;
+  margin-left: 187px;
+}
+.Celda_Tabla91{
+  width: 21px; height: 20px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 82px;
+  margin-left: 187px;
+  border-radius: 0px 0px 15px 0px;
+}
+
+.TextEntidad{
+  margin-top: 36px;
+  margin-left: -149px;
+  position: absolute;
+  width: 250px;
+  height: 28px;
+  border: 0px;
+}
+
+.TextPriA, .TextSegA, .TexNom{
+    background: #E4F5F3;
+  margin-top: 6px;
+  margin-left: -130px;
+  position: absolute;
+  width: 255px;
+  height: 28px;
+  border: 0px;
+}
+.TextCC{
+  background: #E4F5F3;
+margin-top: 5px;
+margin-left: -10px;
+position: absolute;
+width: 140px;
+height: 20px;
+border: 0px;
+}
+
+.FechaText{
+  background: #E4F5F3;
+  position:absolute;
+  margin-top: 0px;
+  margin-left: -80px;
+
+}
+.sub{
+  width: 150px;
+  height: 23px;
+  margin-top: 10px;
+  margin-left: 970px;
+}
